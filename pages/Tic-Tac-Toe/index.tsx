@@ -1,7 +1,7 @@
 import React from 'react'
 import {Form, Input , Button} from 'antd';
-import { Player1 } from './States/Player1';
-import { Player2 } from './States/Player2';
+import { Player1 } from '../../States/Player1';
+import { Player2 } from '../../States/Player2';
 import { useRecoilState} from 'recoil';
 import {useRouter} from 'next/router'
 
