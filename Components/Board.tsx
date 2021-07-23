@@ -1,5 +1,5 @@
 
-import styles from '../../../styles/App.module.css'
+import styles from '../styles/App.module.css'
 import React from 'react'
 import Square from './Square'
 

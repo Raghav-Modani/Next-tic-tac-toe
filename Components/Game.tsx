@@ -1,11 +1,11 @@
 import React from 'react'
 import Board from './Board';
 import { useRecoilState } from 'recoil';
-import { History } from '../../../States/History';
-import { stepnumber } from '../../../States/stepnumber';
-import { isnextX } from '../../../States/isnextX';
-import { WinnerState } from '../../../States/WinnerState';
-import styles from '../../../styles/App.module.css'
+import { History } from '../States/History';
+import { stepnumber } from '../States/stepnumber';
+import { isnextX } from '../States/isnextX';
+import { WinnerState } from '../States/WinnerState';
+import styles from '../styles/App.module.css'
 
 const Game = () => {
     const [History_game, setHistory] = useRecoilState(History)

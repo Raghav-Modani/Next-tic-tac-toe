@@ -1,8 +1,8 @@
-import Game from './Game';
-import Winner from './Winner'
-import RenderState from './RenderState';
+import Game from '../../Components/Game';
+import Winner from '../../Components/Winner'
+import RenderState from '../../Components/RenderState';
 import { Layout } from 'antd';
-import styles from '../../../styles/App.module.css'
+import styles from '../../styles/App.module.css'
 const { Header, Footer, Content, Sider } = Layout;
 
 import React from 'react'

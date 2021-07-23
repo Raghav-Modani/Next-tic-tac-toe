@@ -27,7 +27,7 @@ function Landing() {
                     </Form.Item>
 
                     <Form.Item>
-                        <Button type='default' onClick={()=> router.push('./Tic-Tac-Toe/Components/Landing')}>
+                        <Button type='default' onClick={()=> router.push('./Tic-Tac-Toe/Landing')}>
                             Start Playing!
                         </Button>
                     </Form.Item>
