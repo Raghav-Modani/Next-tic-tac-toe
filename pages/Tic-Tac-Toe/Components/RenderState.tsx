@@ -1,12 +1,12 @@
 
     import React from 'react'
     import { useRecoilState, useRecoilValue} from 'recoil';
-    import { History } from '../States/History';
-    import { stepnumber } from '../States/stepnumber';
-    import { isnextX } from '../States/isnextX';
-    import { WinnerState } from '../States/WinnerState';
-    import { Player1 } from '../States/Player1';
-    import { Player2 } from '../States/Player2';
+    import { History } from '../../../States/History';
+    import { stepnumber } from '../../../States/stepnumber';
+    import { isnextX } from '../../../States/isnextX';
+    import { WinnerState } from '../../../States/WinnerState';
+    import { Player1 } from '../../../States/Player1';
+    import { Player2 } from '../../../States/Player2';
     import { Button} from 'antd';
     import styles from '../../../styles/App.module.css'
 
